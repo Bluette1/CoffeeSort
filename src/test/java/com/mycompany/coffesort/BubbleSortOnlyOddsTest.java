@@ -36,16 +36,22 @@ public class BubbleSortOnlyOddsTest {
             {2, 9, 6, 3, 11, 7, 12, 14}
         });
         
-          // Fourth simple test
+        // Fourth simple test
         testScenarios.add(new int[][]{
             {1, 3, 2, 8, 5, 4},
             {5, 3, 2, 8, 1, 4}
+        });
+        
+        // Fifth simple test
+        testScenarios.add(new int[][]{
+            {12, 5, 11, 13, 6},
+            {12, 11, 13, 5, 6}
         });
 
         // Already sorted list
         testScenarios.add(new int[][]{
             {2, 13, 17, 25, 31},
-            {2, 13, 17, 25, 1}
+            {2, 13, 17, 25, 31}
         });
         
 
