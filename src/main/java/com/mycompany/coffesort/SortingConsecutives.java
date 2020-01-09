@@ -1,25 +1,31 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.mycompany.coffesort;
 
 import java.io.*;
 import java.util.*;
 
 /**
+ * Implementation for the algorithm to sort consecutive numbers
  *
- * @author mary
+ * @author marylene
+ * @see https://www.hackerrank.com/challenges/minimum-swaps-2/problem?h_r=profile
+ * @since 8 Jan 2020
  */
 public class SortingConsecutives {
-      // Complete the minimumSwaps function below.
+    
+   /**
+    * Implementation for the algorithm to sort consecutive numbers
+    * 
+    * @param array
+    * 
+    * @return minSwaps the minimum number of swaps done during the swapping process 
+    */
+
     static int minimumSwaps(int[] array) {
         int n = array.length;
         int minSwaps = 0;
         
        for (int i = 0; i < array.length; i++) {
-//           Loop through array putting values in the rightful places by swapping
+           // Loop through array putting values in the rightful places by swapping
            while (array[i] != i + 1){// do the swap
                int temp = array[array[i] - 1];
            
@@ -35,7 +41,14 @@ public class SortingConsecutives {
     }
 
     private static final Scanner scanner = new Scanner(System.in);
-
+    
+    
+    /**
+     * The main method
+     * 
+     * @param args
+     * @throws IOException 
+     */
     public static void main(String[] args) throws IOException {
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
