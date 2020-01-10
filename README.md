@@ -18,21 +18,21 @@ To get a local copy up and running follow these simple example steps.
 
 ## Set Up
 - Install (java) `sudo apt-get install jdk 1.8`
-- Install maven `sudo apt install maven`
+- Install maven `sudo apt-get install maven`
 
 ### Install
 
 - Clone Github repo 
-- Build: mvn verify
+- Build: `mvn verify`
 - Run: `mvn [clean] install`
 
 ### Run tests
 
-- mvn test
+- `mvn test`
 
 ## Authors
 
-👤 **Marylene sawyer**
+👤 **Marylene Sawyer**
 
 - Github: [@Bluette1](https://github.com/Bluette1)
 - Twitter: [@twitterhandle](https://twitter.com/MaryleneSawyer)
@@ -43,7 +43,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/Bluette1/CoffeeSort/issues).
 
 ## Show your support
 
