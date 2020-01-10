@@ -8,7 +8,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * Test class for the SortingConsecutives class.
+ * Test class for the ConsecutivesSort class.
  *
  * @author marylene
  * @since 9 January 2020
