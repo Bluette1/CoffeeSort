@@ -28,7 +28,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Run tests
 
-- `mvn test`
+- `mvn [clean] test`
 
 ### Google cloud integration
 - Read the [documention](https://github.com/GoogleCloudPlatform/cloud-builders/tree/master/mvn) for the google cloud build.
