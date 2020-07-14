@@ -92,7 +92,6 @@ public class SortingConsecutivesTest {
     }
     
     int minimumSwaps(int[] array) {
-        int n = array.length;
         int minSwaps = 0;
         
        for (int i = 0; i < array.length; i++) {
