@@ -23,8 +23,12 @@ public class ConsecutivesSort {
     static int doSort(int[] array) {
         int n = array.length;
         int minSwaps = 0;
+        if (n == 0) {
+            return minSwaps;
+        }
         
-       for (int i = 0; i < array.length; i++) {
+        
+       for (int i = 0; i < n; i++) {
            // Loop through array putting values in the rightful places by swapping
            while (array[i] != i + 1){// do the swap
                int temp = array[array[i] - 1];
