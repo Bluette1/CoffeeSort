@@ -75,7 +75,7 @@ public class SortingConsecutivesTest {
         
         // Shuffle the values in the array
         int count = 0;
-        while (count <= 5) {
+        while (count <= 3 * n) {
             // Generate two random indices between 0...n
             int idx1 = 0 + (int)(Math.random() * ((n-1 - 0) + 1));
             int idx2 = 0 + (int)(Math.random() * ((n-1 - 0) + 1));
