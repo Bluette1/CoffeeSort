@@ -3,9 +3,9 @@ A collection of various sort algorithms.
 
 Some of the algorithms include:
 - Bubble sort
-- InsertionSort
-- QuickSort
-- MergeSort
+- Insertion sort
+- Quick sort
+- Merge sort
 
 ## Built With
 
