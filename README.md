@@ -3,9 +3,9 @@ A collection of various sort algorithms.
 
 Some of the algorithms include:
 - Bubble sort
-- InsertionSort
-- QuickSort
-- MergeSort
+- Insertion sort
+- Quick sort
+- Merge sort
 
 ## Built With
 
@@ -39,7 +39,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Github: [@Bluette1](https://github.com/Bluette1)
 - Twitter: [@twitterhandle](https://twitter.com/MaryleneSawyer)
-- Linkedin: [linkedin](https://www.linkedin.com/in/marylene-sawyer-b4ba1295/)
+- Linkedin: [linkedin](https://www.linkedin.com/in/marylene-sawyer/)
 
 
 ## 🤝 Contributing
